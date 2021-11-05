@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.py[cod]
+.venv
+.DS_Store
+.vscode/
+
+.jordans_api_keys
+.devcontainer
