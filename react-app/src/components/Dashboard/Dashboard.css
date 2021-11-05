@@ -1,0 +1,249 @@
+/* .sticky__items{
+
+    height:950px;
+    width: 20%;
+    position: fixed;
+    right: 130px;
+    top:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.sticky__items{
+    border:3px solid blue;
+}
+.dash__portfilioStats{
+    height: 467px;
+    width: 50%;
+    border: 3px solid #5E9771;
+    margin-left: 200px;
+    margin-top: 150px;
+    border-radius:30px;
+    overflow:hidden;
+    box-shadow: 0 0 5px 5px #97B690 ;
+}
+
+
+
+
+
+.dash__newsFeed{
+    width: 65%;
+    height:fit-content;
+    position: absolute;
+    top: 1100px;
+    /* border: 3px solid red;  */
+    left: 400px;
+
+}
+
+.jump-to-top{
+    position:fixed;
+    height: 60px;
+    width:60px;
+    right:0;
+    border: 3px solid green;
+    margin-top:240px;
+
+}
+
+
+.stats__header{
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    align-items: center;
+    height:70px;
+    background-color: white;
+    border-radius:30px 30px 0 0;
+}
+
+
+.stats__balance{
+    color:green;
+    font-weight:bold;
+}
+
+.port__chart{
+    /* border: 2px solid purple; */
+    height: 330px;
+    background-color: white;
+
+}
+
+.tradeHistory__link{
+    display:flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right:30px;
+    align-items: center;
+    background-color: white;
+    border-radius:0 0 30px 30px ;
+}
+
+.th__link{
+    text-decoration:none;
+    font-size: 22px;
+    color:black;
+
+}
+
+.port__toggle{
+    font-size:40px;
+    display:flex;
+
+
+}
+
+.create-portfolio-form{
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    width: 400px;
+    background-color:white;
+    margin-right: 50px;
+}
+
+.create-watchlist-form {
+
+
+    border: 3px solid black;
+    border-radius: 30px;
+
+    padding: 20px;
+    width: 400px;
+    background-color:white;
+    top:82%;
+    height:260px;
+
+}
+
+.newPort__label{
+    display: flex;
+    justify-content: center;
+}
+
+.newPort__input{
+
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.create-portfolio-form > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create-watchlist-form > form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.dashboard-stock-section {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 420px;
+    top: 200px;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    /* padding: 30px; */
+    width:15%;
+    height: 750px;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.portfolio-stock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+    width: 230px;
+    border-bottom: 2px solid black;
+    padding-bottom:10px;
+}
+
+.portfolio-stock-ticker {
+    margin-right: 15px;
+}
+
+.cancel-portfolio-button{
+    text-decoration: none;
+    color:black;
+
+}
+
+.cancel-watchlist-button{
+    text-decoration: none;
+    color:black;
+}
+
+.cancelPort__container{
+    width:355px;
+    border:2px solid black;
+    border-radius:8px;
+    display: flex;
+    justify-content: center;
+    margin-top:5px;
+    background: red
+}
+
+
+.watchlist__buttons{
+    display:flex;
+    flex-direction: column;
+    margin-top:40px;
+}
+
+
+.delete__port-button{
+    position: absolute;
+    font-size:20px;
+    right:800px;
+    background-color:red;
+    border:3px solid red;
+    border-radius: 10px;
+}
+
+.dash__forms-container{
+    width:900px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 305px;
+    margin-left: 200px;
+}
+
+.create__watchlist-container{
+    position: relative;
+
+}
+
+.newPort__submit{
+    background-color: #5E9771;
+    border: 2px solid #5E9771;
+    color: white;
+    border-radius: 8px;
+}
+
+.newWatchlist__submit{
+    background-color: #5E9771;
+    border: 2px solid #5E9771;
+    color: white;
+    border-radius: 8px;
+
+}
+
+.portfoliostock__btn{
+    background-color: #5E9771;
+    border: 2px solid #5E9771;
+    color: white;
+    border-radius: 8px;
+}

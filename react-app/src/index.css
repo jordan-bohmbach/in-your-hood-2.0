@@ -1,0 +1,8 @@
+/* TODO Add site wide styles */
+.article-tile {
+    border: 1px solid black;
+}
+
+.article-tile > img {
+    height: 200px;
+}

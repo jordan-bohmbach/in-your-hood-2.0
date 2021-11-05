@@ -1,0 +1,157 @@
+.login__bkg-1{
+    position:fixed;;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    overflow:hidden;
+    background-image:  url('./bkg_layer-1.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+
+
+.login__form-container{
+    width: 350px;
+    position: absolute;
+    right:200px;;
+    top:200px;
+    height: 550px;
+    background-color:white;
+    border-radius:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+
+
+}
+
+.login__field{
+    display: flex;
+    flex-direction:column;
+    height:fit-content;
+    align-items:center;
+}
+
+.login__inputFiled{
+    font-size:22px;
+    margin-bottom:20px;
+
+}
+
+.login__input{
+    width:250px;
+    height:30px;
+
+}
+
+.login__form{
+    height:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+
+.login__txt-container{
+    position:relative;
+    top: 60px;
+    font-size:14px;
+}
+
+.link__singup{
+    text-decoration:none;
+    color:green;
+}
+
+.form__welcome-top{
+    width:300px;
+    position: relative;
+    bottom:30px;;
+    height: 120px;
+    background-image:url('./welcome_back_sign.png');
+    background-size: 100% 100%;
+
+}
+
+.login__buttons{
+    border-radius:30px;
+
+}
+
+.login{
+    background-color:#5E9771;
+    border:2px solid #5E9771;
+    color:white;
+}
+
+.cancel{
+    background-color: red;
+    border:2px solid red;
+    color: white;
+}
+
+
+
+
+.login__errors{
+    color: red;
+    font-weight: bold;
+
+}
+
+.login__logo-container{
+    width: 500px;
+    height:500px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    background-image: url('./Invest_Locally_logo.png');
+    background-size: 100% 100%;
+    border-radius:30px;
+}
+
+
+.signup__form-container{
+    width: 350px;
+    position: absolute;
+    right:200px;;
+    top:150px;
+    height: 700px;
+    background-color:white;
+    border-radius:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:30px;
+
+}
+
+.signup__form{
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:300px;
+}
+
+.signupform__welcome-top{
+    width:300px;
+    position: relative;
+    bottom:40px;;
+    height: 120px;
+    background-image:url('./welcome_sign.png');
+    background-size: 100% 100%;
+
+}
+
+.signup{
+    background-color:#5E9771;
+    border:2px solid #5E9771;
+    color:white;
+    margin-top:10px;
+}

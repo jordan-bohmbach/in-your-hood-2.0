@@ -1,0 +1,111 @@
+.userInfo__container{
+    height:400px;
+    width: 70%;
+    border: 3px solid #5E9771;
+    box-shadow: 0 0 5px 5px #97B690 ;
+    margin-top: 5%;
+    margin-left:15%;
+    display:flex;
+    background-color:white;
+    border-radius:30px;
+}
+
+.pfp__tile{
+    /* border: 3px solid red; */
+    width:30%;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userInfo__pfp{
+    height:250px;
+    width:250px;
+    background-image: url('./default_pfp.jpg');
+    background-size:100% 100%;
+}
+
+.userInfo__details{
+    /* border: 3px solid blue; */
+    width:40%;
+    height: 280px;
+    margin-top:5%;
+    
+    
+
+}
+
+
+.balanceSummary__container{
+    height:300px;
+    width: 70%;
+    border-top: 3px solid black;
+    
+    margin-left:15%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+}
+
+
+.profile__datarow{
+    border-bottom: 3px solid grey;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.profile__port-name{
+    font-weight:bold; 
+}
+
+.profile__port-balance{
+    display:flex;
+    justify-content:center;
+    font-weight:bold;
+    color:green;
+}
+
+.profile__label-balance{
+    width: 70%;
+    margin-top: 10%;
+    margin-left:15%;
+    margin-bottom:0;
+    background-color:white;
+    height:70px;
+    display:flex;
+    justify-content: center; 
+    align-items:center;
+    border-top:3px solid #5E9771;
+    border-left:3px solid #5E9771;
+    border-right: 3px solid #5E9771;
+
+
+
+}
+
+.profile__name-display{
+    /* border: 3px solid purple; */
+    padding:10px;
+    display:flex;
+    justify-content:center;
+
+}
+
+.profile__username-display{
+
+}
+
+.usrInfo__field{
+    /* border: 3px solid green; */
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly
+}
+
+.usr__email{
+    display: flex;
+    align-items:center;
+    font-weight:bold;
+}

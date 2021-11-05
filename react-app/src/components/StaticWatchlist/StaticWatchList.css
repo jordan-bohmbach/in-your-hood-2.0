@@ -1,0 +1,51 @@
+.container__label{
+    display: flex;
+    justify-content: center;
+}
+
+.list__toggle{
+    display: flex;
+    justify-content: center;
+    margin-bottom:10px;
+}
+
+.watchlist-toggle{
+    font-size:15px;
+}
+.watchlist-container {
+    display:  flex;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    height: 750px;
+    width:15%;
+    background-color: white;
+    overflow: auto;
+}
+
+.deleteWatchlist_Btn{
+    background-color: red;
+    border:2px solid red;
+    color: white;
+    border-radius: 8px;
+}
+
+
+
+
+.data__row{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+
+}
+
+.buttons:hover{
+    cursor: pointer;
+}
